@@ -1,0 +1,37 @@
+Package: TGIFA
+Type: Package
+Title: A Missing Data Imputation Method for Metabolomics Data Using a Truncated Gaussian Infinite Factor Model
+Version: 1.0.0
+Authors@R: c(
+  person(
+    given = "Kate",
+    family = "Finucane",
+    email = "kate.finucane@ucdconnect.ie",
+    role = c("aut", "cre", "cph")
+  ),
+  person(
+    given = "Isobel Claire",
+    family = "Gormley",
+    role = "aut"
+  ),
+  person(
+    given = "Lorraine",
+    family = "Brennan",
+    role = "aut"
+  )
+  )
+Description: A missing data imputation method using a truncated infinite factor analysis model designed for high-dimensional metabolomics data.
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    mvtnorm,
+    Rcpp,
+    Rfast,
+    softImpute,
+    stats,
+    TruncatedNormal,
+    truncdist,
+    truncnorm
+License: GPL (>= 3)
